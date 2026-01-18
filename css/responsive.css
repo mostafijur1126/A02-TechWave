@@ -38,4 +38,22 @@
     .banner-text h1 {
     font-size: 40px;
     }
+
+
+    #about{
+        padding: 0 20px;
+    }
+    .section-counter{
+    gap: 40px;
+    grid-template-columns: repeat(2,1fr);
+    }
+    .section-content .section-heading {
+    font-size: 36px;
+    }
+    .section-content {
+    padding: 40px 0;
+    }
+    .section-counter {
+    padding: 40px 0;
+    }
 }

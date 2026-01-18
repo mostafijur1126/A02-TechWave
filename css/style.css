@@ -113,7 +113,7 @@ nav{
     text-align: center;
 }
 .banner-text p{
-    color: rgba(255, 255, 255, 1);
+    color: #ffffff80;
     font-size: 16px;
     text-align: center;
     margin: 8px 0 24px 0;
@@ -134,4 +134,49 @@ nav{
     line-height: 19px;
     text-transform: capitalize;
     color: #00FF88;
+}
+
+/* ==========About Section========== */
+#about{
+    background-color: #1A0B2E;
+}
+.section-content{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.103);
+    
+}
+.section-content .section-heading{
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.section-content p{
+    color: #ffffff80 ;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.section-counter{
+    display: grid;
+    gap: 80px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 80px 0 120px 0;
+}
+.counter{
+    text-align: center;
+}
+.counter .cunt-num{
+    color: #00FF88;
+    font-size: 48px;
+    font-weight: bold;
+}
+.counter p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ffffff80;
+    margin-top: 20px;
 }
