@@ -56,4 +56,26 @@
     .section-counter {
     padding: 40px 0;
     }
+
+
+    #why-choose{
+        padding: 40px 20px;
+    }
+    .section-heading {
+    font-size: 32px;
+    }
+    .section-items {
+    margin-top: 40px;
+    gap: 20px;
+    grid-template-columns: repeat(1,1fr);
+    }
+    .item-info{
+     padding: 24px;
+    }
+    .item-info-fat {
+    padding: 24px;
+    }
+    .item-info-big {
+    padding: 24px;
+    }
 }

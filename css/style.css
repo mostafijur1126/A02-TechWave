@@ -180,3 +180,51 @@ nav{
     color: #ffffff80;
     margin-top: 20px;
 }
+
+/* =========Why Choose Section========== */
+#why-choose{
+    padding: 120px 0;
+    background-color: #230E3D;
+}
+.section-heading{
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 800;
+}
+.section-items{
+    margin-top: 40px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.item-info-fat{
+    grid-row: span 2;
+    background-color: #35116540;
+    padding: 107px 40px;
+    border-radius: 40px;
+}
+.item-info-big{
+    grid-column: span 2;
+    background-color: #35116540;
+    padding: 40px;
+    border-radius: 40px;
+}
+.item-info{
+    background-color: #35116540;
+     padding: 40px;
+     border-radius: 40px;
+}
+.info-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 16px 0;
+}
+.info-dec{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff60;
+}
