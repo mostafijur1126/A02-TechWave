@@ -1,0 +1,41 @@
+
+
+@media screen and (max-width:576px){
+    .nav-items{
+        padding: 20px;
+    }
+    .nav-items ul{
+        display: none;
+    }
+    .nav-items .btn{
+        display: none;
+    }
+    .hambarger{
+        display: flex;
+        align-items: center;
+    }
+
+    #banner {
+    padding: 0px;
+    }
+    .banner-content-wrapper .mic{
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    }
+    .banner-content-wrapper .mic i {
+    font-size: 100px;
+    }
+    .top-text {
+    top: -190px;
+    left: 66px;
+    }
+    .banner-content-wrapper {
+    gap: 0px;
+    padding: 40px 0;
+    }
+    .banner-text h1 {
+    font-size: 40px;
+    }
+}
