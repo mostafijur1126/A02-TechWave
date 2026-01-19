@@ -109,4 +109,16 @@
     .host-icon-wrapper{
         justify-content: center;
     }
+
+
+    .footer-text .footer-logo {
+    font-size: 50px;
+    }
+    #footer {
+    padding:40px 20px;
+    }
+    .footer-icon-wrapper {
+     flex-wrap: wrap;
+     justify-content: center;
+    }
 }
