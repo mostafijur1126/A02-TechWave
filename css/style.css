@@ -270,3 +270,42 @@ nav{
     line-height: 24px;
 
 }
+
+#host{
+    background-color: #1A0B2E;
+    padding-bottom: 120px   ;
+}
+.host-info-wrapper{
+    background-color: #35116540;
+    padding: 40px;
+    border-radius: 40px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 40px;
+}
+.hos-info .host-name{
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.hos-info .host-dec{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #ffffff60;
+    margin: 16px 0;
+}
+.host-icon-wrapper{
+    display: flex;
+    gap: 8px;
+}
+.hos-info .host-icon-wrapper .icons{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #533C72;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
