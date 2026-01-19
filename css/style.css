@@ -228,3 +228,45 @@ nav{
     line-height: 24px;
     color: #ffffff60;
 }
+/* ========Featured Episodes Section========= */
+#featured{
+    background-color: #1A0B2E;
+    padding: 120px 0;
+}
+.episodes-wrapper{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    
+}
+.episodes-card{
+    width: 100%;
+    background-color: #250D44;
+    border-radius: 20px;
+}
+.video-wrapper iframe{
+    border-radius: 20px 20px 0 0 ;
+}
+.info-wrapper{
+    padding: 24px;
+}
+.episodes-card .episode-title{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px 0 12px 0;
+}
+.episodes-card .episode-dec{
+    color: #ffffff60;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.episodes-card .episode-time{
+    color: #00FF88;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+
+}

@@ -78,4 +78,19 @@
     .item-info-big {
     padding: 24px;
     }
+    .episodes-wrapper {
+    flex-direction: column;
+    }
+    #featured {
+    padding: 40px 20px 60px;
+    }
+    .episodes-wrapper {
+    margin-top: 24px;
+    }
+    .episodes-card .episode-title {
+    font-size: 20px;
+    }
+    .info-wrapper {
+    padding: 16px;
+    }
 }
