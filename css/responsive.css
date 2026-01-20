@@ -16,6 +16,7 @@
     }
 
     #banner {
+    background: url(../assets/mobile-banner-bg.png);
     padding: 0px;
     }
     .banner-content-wrapper .mic{
@@ -102,10 +103,14 @@
     flex-direction: column;
     margin-top: 24px;
     padding: 24px;
+    gap: 16px;
     }
     .hos-info{
         text-align: center;
     }
+    .hos-info .host-name {
+    font-size: 24px;
+}
     .host-icon-wrapper{
         justify-content: center;
     }
@@ -115,10 +120,19 @@
     font-size: 50px;
     }
     #footer {
-    padding:40px 20px;
+    background-image: url(../assets/mobile-footer-bg.png);
+    padding:35px 20px;
     }
     .footer-icon-wrapper {
-     flex-wrap: wrap;
-     justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 50px;
+    }
+    .footer-text {
+    gap: 24px;
+    }
+    .footer-icon-wrapper {
+    row-gap: 16px;
     }
 }
