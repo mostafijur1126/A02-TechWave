@@ -17,6 +17,9 @@
 
     #banner {
     background: url(../assets/mobile-banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0px;
     }
     .banner-content-wrapper .mic{
@@ -127,7 +130,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     }
     .footer-text {
     gap: 24px;
@@ -135,4 +138,44 @@
     .footer-icon-wrapper {
     row-gap: 16px;
     }
+}
+
+@media (min-width:576px) and (max-width:992px){
+.nav-items{
+    padding: 30px;
+}
+#about{
+    padding: 0 20px;
+}
+.section-counter {
+    display: grid;
+    gap: 80px;
+    grid-template-columns: repeat(2,1fr);
+    padding: 80px 0 120px 0;
+}
+#why-choose {
+    padding: 120px 20px;
+    background-color: #230E3D;
+}
+.section-items {
+    grid-template-columns: repeat(1,1fr);
+}
+#featured {
+    padding: 120px 20px;
+}
+.episodes-wrapper {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.episodes-card {
+    width:300px;
+    background-color: #250D44;
+    border-radius: 20px;
+}
+#host{
+    padding: 0 20px 120px;
+}
 }
